@@ -1,0 +1,55 @@
+# Case-study documentation repository — defensive ignore rules
+# No source code is present; these rules guard against accidental commits.
+
+# Credentials and secrets (never commit)
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+*.secret
+password*
+*password*
+login*.txt
+*backup_code*
+*recovery_code*
+id_rsa*
+id_ed25519*
+
+# Sensitive data (never commit)
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+data/
+evidence-inbox/
+PORTFOLIO_EVIDENCE_INBOX/
+
+# Local machine junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
+*.tmp
+*.swp
+
+# Build / tooling (in case source is added later)
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+
+# Large binaries (add deliberately, never by accident)
+*.asar
+*.exe
+*.zip
+*.7z
+*.rar
+*.vrm
+*.log
