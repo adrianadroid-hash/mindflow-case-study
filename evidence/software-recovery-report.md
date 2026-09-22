@@ -32,9 +32,9 @@
 - **Evidence grade:** REPORTED / NOT YET VERIFIED
 
 ### NYX Desktop AI Companion
-- **Canonical source:** Reported locally on `C:\Users\adria\OneDrive\Desktop`
+- **Canonical source:** Reported locally on `<userprofile>\OneDrive\Desktop`
 - **Local source:** **Not located** in bounded targeted search
-- **Candidate examined:** `C:\Users\adria\OneDrive\Desktop\DOCS\electron-main.zip` — verified as upstream Electron framework source (`repository: https://github.com/electron/electron`), **not NYX**
+- **Candidate examined:** `<desktop>\DOCS\electron-main.zip` — verified as upstream Electron framework source (`repository: https://github.com/electron/electron`), **not NYX**
 - **Other findings:** No NYX/ADDY_OS-named directory, no relevant package/manifest files found outside excluded areas
 - **Evidence grade:** LOCAL_SOURCE_NOT_LOCATED (VERIFIED FROM TARGETED SEARCH)
 
@@ -244,7 +244,7 @@ Each project has sufficient documented evidence (recovery manifests, prior portf
 - **STATUS:** Recovery blocked; source root not located; implementation state unknown
 - **PARENT:** None evidenced
 - **RELATIONSHIPS:** ADDY_OS relationship unresolved; distinct from Nyx Designs; tracked by AI Operations; possible future portfolio case study
-- **SOURCE LOCATION:** Reported somewhere on `C:\Users\adria\OneDrive\Desktop`; exact project root not located; `DOCS\electron-main.zip` excluded as unrelated upstream Electron source
+- **SOURCE LOCATION:** Reported somewhere on `<userprofile>\OneDrive\Desktop`; exact project root not located; `DOCS\electron-main.zip` excluded as unrelated upstream Electron source
 - **RECOVERY STATUS:** `LOCAL_SOURCE_NOT_LOCATED`
 
 ---
@@ -261,11 +261,11 @@ Each project has sufficient documented evidence (recovery manifests, prior portf
 
 ## Files Created This Session
 
-1. `C:\Users\adria\OneDrive\Desktop\AI OPERATIONS\OUTPUT\MINDFLOW_RECOVERY_MANIFEST.md`
-2. `C:\Users\adria\OneDrive\Desktop\AI OPERATIONS\OUTPUT\NEXYS_TASK_RECOVERY_MANIFEST.md`
-3. `C:\Users\adria\OneDrive\Desktop\AI OPERATIONS\OUTPUT\NYX_RECOVERY_MANIFEST.md`
-4. `C:\Users\adria\OneDrive\Desktop\AI OPERATIONS\OUTPUT\SOFTWARE_PROJECT_RECOVERY.md` (this file)
-5. `C:\Users\adria\OneDrive\Desktop\AI OPERATIONS\OUTPUT\SOFTWARE_PROJECT_RECOVERY.json` (companion machine-readable file)
+1. `<workspace>\OUTPUT\MINDFLOW_RECOVERY_MANIFEST.md`
+2. `<workspace>\OUTPUT\NEXYS_TASK_RECOVERY_MANIFEST.md`
+3. `<workspace>\OUTPUT\NYX_RECOVERY_MANIFEST.md`
+4. `<workspace>\OUTPUT\SOFTWARE_PROJECT_RECOVERY.md` (this file)
+5. `<workspace>\OUTPUT\SOFTWARE_PROJECT_RECOVERY.json` (companion machine-readable file)
 
 ---
 
